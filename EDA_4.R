@@ -1,8 +1,12 @@
+print("NAME : SHIMAL AYMAN.S")
+print("ROLL.NO : 23BAD112")
+
 # -----------------------------------------
 # TRAFFIC ACCIDENT DATA VISUALIZATION
 # -----------------------------------------
 
 # Load required libraries
+
 library(ggplot2)
 library(dplyr)
 
@@ -69,3 +73,4 @@ ggplot(accident_summary,
     legend.position = "right",
     legend.title = element_text(face = "bold")
   )
+
